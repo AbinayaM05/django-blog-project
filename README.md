@@ -15,18 +15,32 @@ Django-powered backend logic
 
 SQLite database support
 
-
-📁 Project Structure
-
-myblog/               ← Main project folder
+🗂️my-django-blog/
+├── blog/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── templates/
+│       └── blog/
+│           └── index.html
 │
-├── blog/             ← Blog app (views, models, templates)
-├── myblog/           ← Project settings and URLs
-├── templates/        ← HTML templates
-├── static/           ← CSS, JS, Images
-├── db.sqlite3        ← Default database
-├── manage.py         ← Django project runner
-└── README.md         ← Project documentation
+├── my_django_blog/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├── media/
+├── db.sqlite3
+├── manage.py
+└── README.md
+
 
 
 🛠️ Technologies Used
