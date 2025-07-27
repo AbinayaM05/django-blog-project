@@ -15,31 +15,30 @@ Django-powered backend logic
 
 SQLite database support
 
-🗂️my-django-blog/
-├── blog/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   └── templates/
-│       └── blog/
-│           └── index.html
-│
-├── my_django_blog/
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-├── media/
-├── db.sqlite3
-├── manage.py
-└── README.md
+🗂️my-django-project
+  -blog
+    admin py
+    models py
+    views py
+    urls py
+    templates
+      blog
+        index html
+
+  -project
+    settings py
+    urls py
+
+  -static
+    css
+    js
+    images
+
+  -media
+
+  db sqlite three
+  manage py
+  readme md
 
 
 
